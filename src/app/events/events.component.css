@@ -1,0 +1,36 @@
+body {
+  background:url(../../assets/images/drink.jpg) no-repeat;
+  background-size:cover;
+  height: 1055px;
+}
+
+.container {
+
+
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.text-light {
+  padding-top: 12vh;
+  padding-bottom: 6vh;
+  font-font: impact;
+  font-size: 2em;
+  color: #c69dd2;
+}
+
+.card {
+  margin-top: 10px;
+  margin-right: 8vw;
+  background-color: #c69dd2;
+}
+
+.card-title {
+  height: 6vh;
+  text-align: center;
+}
+
+.font1 {
+  font-family: impact, cursive;
+}

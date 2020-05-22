@@ -1,0 +1,41 @@
+body {
+  background:url(../../assets/images/drink.jpg) no-repeat;
+  background-size:cover;
+  height: 1055px;
+}
+
+img {
+  border-radius: 20px;
+}
+
+h1 {
+  font-size: 4em;
+}
+div p {
+  font-size: 1.2em;
+  font-weight: bold;
+
+}
+
+.font1 {
+  font-family: 'Bangers', cursive;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.elements {
+  margin-bottom: 12vh;
+  width: 40%;
+}

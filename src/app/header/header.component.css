@@ -1,0 +1,28 @@
+#dropdownMenuButton {
+
+}
+
+
+.container {
+  margin : 2vw;
+}
+
+.navbar-brand {
+  font-size: 1.8em;
+}
+
+.navbarSupportedContent {
+  text-align: right;
+}
+
+.btn-secondary {
+  color: aliceblue;
+  background-color: #27213C;
+  border-color: #27213C
+}
+
+.font1 {
+  font-family: Impact, cursive;
+
+}
+

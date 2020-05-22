@@ -1,0 +1,51 @@
+
+<nav class="navbar navbar-expand-lg navbar-light " style="background-color: #c69dd2; height: 22vh">
+  <div class="container ">
+
+    <img src="https://i.pinimg.com/originals/b2/2e/4a/b22e4a3f3b3ad4b81b1f5e9b7346708f.png" height="140vh" class="mr-lg-4">
+
+    <a class="navbar-brand font1" [routerLink]="['/accueil']">Bienvenue chez {{ title }} !</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+
+    <!-- NavBar Icone 1 -->
+    <div class="ml-lg-4">
+      <img src="../assets/images/unnamed.png" height="120vh" class="mr-lg-4">
+    </div>
+
+
+    <!-- NavBar Icone 2 -->
+    <div class="ml-lg-4">
+      <img src="../assets/images/certifRoutard2018.png" height="110vh" class="mr-lg-4">
+    </div>
+
+
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+
+
+
+        <!-- Menu déroulant -->
+        <li class="nav-item dropdown">
+          <button class="btn btn-lg btn-secondary dropdown-toggle text-right font1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Menu
+          </button>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item font1" [routerLink]="['/accueil']">Accueil</a>
+            <a class="dropdown-item font1" [routerLink]="['/album']">Album Photos</a>
+            <a class="dropdown-item font1" [routerLink]="['/events']">Nos évènements</a>
+            <a class="dropdown-item font1" [routerLink]="['/inscription']">Inscription à la Newsletter</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item font1 text-primary" [routerLink]="['/contact']">Nous Contacter !</a>
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+  </div>
+</nav>

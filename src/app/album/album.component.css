@@ -1,0 +1,18 @@
+
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background:url(../../assets/images/drink.jpg) no-repeat;
+  background-size:cover;
+  height: 1055px;
+}
+img {
+  margin-top: 20vh;
+  width: 50vw;
+  height: auto;
+  border-radius: 16px;
+}
